@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px 5px;
+}
+.wrap{
+    background-image: url(image/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
+    margin-bottom: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 7px;
+    margin-top: 10px;
+}
+.nav img{
+    width: 20px;
+    height: 20px;
+}
+.first{
+    padding:30px 30px;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.first button{
+    margin-top: 50px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(255, 197, 176, 0.856);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style-type: none;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70vh;
+    margin-bottom: 30px;
+}
+.second-text{
+    text-align: justify;
+    width: 20%;
+}
+.second-text h3{
+    position: absolute;
+    right: 35%;
+    top: 700px;
+    font-size: 50px;
+    text-shadow: 3px 4px 7px white;
+}
+.second-img{
+    width: 400px;
+    height: 400px;
+}
+.second-text p{
+    margin-top: 200px;
+}
+.third{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 70vh;
+}
+.holder{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+.one{
+    margin-top: 100px;
+    width: 30%;
+    background-color: burlywood;
+    height: 100px;
+}
+.two{
+    margin-top: 100px;
+    width: 30%;
+    background-color: coral;
+    height: 100px;
+}
+.three{
+    margin-top: 100px;
+    width: 30%;
+    background-color: burlywood;
+    height: 100px;
+}
+.s-button{
+    background-color: #fff;
+    margin-top: 200px;
+}
+.third h4{
+    margin-bottom: 50px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 70vh;
+}
+.last-one{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    line-height: 5;
+    height: 40vh;
+    width: 400px;
+}
+.last-two{
+    background-image: url(image/back2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    line-height: 5;
+    height: 40vh;
+    text-align: center;
+    width: 400px;
+}
+.last-one button{
+    width: 100px;
+}
+.last-one input{
+    background-color: #000;
+    color: #fff;
+    border: 3px coral solid;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+}
+@media screen and (max-width:700px){
+    .container{
+        max-width: 1200px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px 5px;
+    }
+    .holder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .third{
+        text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    }
+    .one{
+        margin-top: 100px;
+        width: 30%;
+        background-color: burlywood;
+        height: 100px;
+    }
+    .two{
+        margin-top: 100px;
+        width: 30%;
+        background-color: coral;
+        height: 100px;
+    }
+    .three{
+        margin-top: 100px;
+        width: 30%;
+        background-color: burlywood;
+        height: 100px;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        height: 70vh;
+    }
+    .last-one{
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        line-height: 5;
+        height: 40vh;
+        width: 400px;
+    }
+    .last-two{
+        background-image: url(image/back2.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        line-height: 5;
+        height: 40vh;
+        text-align: center;
+        width: 400px;
+    }
+    .last-one button{
+        width: 100px;
+    }
+    .last-one input{
+        background-color: #000;
+        color: #fff;
+        border: 3px coral solid;
+        padding: 10px;
+    }
+}
